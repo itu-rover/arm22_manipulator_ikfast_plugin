@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<library path="lib/libarm22_manipulator_moveit_ikfast_plugin">
+  <class base_class_type="kinematics::KinematicsBase" name="arm22_manipulator/IKFastKinematicsPlugin" type="arm22_manipulator::IKFastKinematicsPlugin">
+    <description>IKFast61 plugin for closed-form kinematics of arm22 manipulator</description>
+  </class>
+</library>
