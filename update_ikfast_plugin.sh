@@ -7,7 +7,9 @@ planning_group_name=manipulator
 ikfast_plugin_pkg=arm22_manipulator_ikfast_plugin
 base_link_name=base_link
 eef_link_name=end_effector
-ikfast_output_path=/home/burka/updatum/src/arm22_manipulator_ikfast_plugin/src/arm22_manipulator_ikfast_solver.cpp
+
+# Change the below path to your desired output path
+ikfast_output_path=/home/burka/arm22_ws/src/arm22_manipulator_ikfast_plugin/src/arm22_manipulator_ikfast_solver.cpp
 
 rosrun moveit_kinematics create_ikfast_moveit_plugin.py\
   --search_mode=$search_mode\
